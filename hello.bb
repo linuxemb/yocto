@@ -2,8 +2,8 @@ DESCRIPTION = "Simple helloworld application"
 LICENSE = "CLOSED"
 LIC_FILES_CHKSUM = ""
 
-SRC_URI = "git://lshi@mon-scm-repos.hme.com/scm/git/YoctoTest.git;protocol=https;branch=master"
 SRCREV = "${AUTOREV}"
+SRC_URI = "git://lshi@mon-scm-repos.hme.com/scm/git/YoctoTest.git;protocol=https;branch=master"
 
 #SRCREV = "9a6e4afeedc0ea9f5d69deb00d575786d305aa85"
 
