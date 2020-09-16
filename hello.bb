@@ -1,9 +1,10 @@
 DESCRIPTION = "Simple helloworld application"
-LICENSE = "MIT"
-LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda2f7b4f302"
+LICENSE = "CLOSED"
+LIC_FILES_CHKSUM = ""
 
-SRC_URI = "git://mon-scm-repos.hme.com/scm/git/YoctoTest.git;protol=https"
-SRCREV = "d4cd00352838073182599d6250f8d939"
+SRC_URI = "git://lshi@mon-scm-repos.hme.com/scm/git/YoctoTest.git;protocol=https"
+SRCREV = "9a6e4afeedc0ea9f5d69deb00d575786d305aa85"
+
 S = "${WORKDIR}/git"
 
 
@@ -13,5 +14,6 @@ do_compile() {
 
 do_install() {
 	install -d ${D}${bindir}
-	install -m 0755 myhello ${D}${bindir}
+	install -m 0755 hello ${D}${bindir}
 }
+
