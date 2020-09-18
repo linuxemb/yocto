@@ -6,6 +6,7 @@ int main (int argc, char *argv[]) {
 	printf("Hello,test AUTOREV \"%s\"\n", argv[0]);
 	printf("Hello,test PV+SRCRV \"%s\"\n", argv[0]);
 	printf("Hello,test PV+SRCRV \"%s\"\n", argv[0]);
+	printf("Hello,example-image test \"%s\"\n", argv[0]);
 	return 0;
 }
 
