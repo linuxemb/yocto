@@ -8,6 +8,9 @@ int main (int argc, char *argv[]) {
 	printf("Hello,test PV+SRCRV \"%s\"\n", argv[0]);
 	printf("Hello,example-image test \"%s\"\n", argv[0]);
 	printf("Hello,example-image cache test \"%s\"\n", argv[0]);
+	
+	
+	printf("Hello,http autrev \"%s\"\n", argv[0]);
 	return 0;
 }
 
