@@ -11,6 +11,7 @@ int main (int argc, char *argv[]) {
 	
 	
 	printf("Hello,http autrev \"%s\"\n", argv[0]);
+	printf("Hello,http autrev  local repo, 1st build done, check head of hash  \"%s\"\n", argv[0]);
 	return 0;
 }
 
